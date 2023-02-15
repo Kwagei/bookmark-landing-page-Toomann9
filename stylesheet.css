@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Universal selector */
+
+.nav-bar{
+    margin-top: 20px;
+}
+
+.nav-one{
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.nav-two{
+    margin-left: 800px;
+    padding-top: 10px;
+}
+
+/* .navlink-one{} */
+
+.navlink-one a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.navlink-one a:hover{
+    color: red;
+}
+
+.navlink-two{
+    margin-left: 30px;
+    
+}
+
+.navlink-two a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.navlink-two a:hover{
+    color: red;
+}
+
+.navlink-three{
+    margin-left: 30px;
+}
+
+.navlink-three a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.navlink-three a:hover{
+    color: red;
+}
+
+.navlink-button{
+    margin-left: 30px;
+}
+
+.navlink-button button{
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.navlink-button button:hover{
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.navlink-button a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.navlink-button a:hover{
+    color: red;
+}
+
+/* Nav bar ends here */
+
+.middle-section{
+    margin-top: 20px;
+}
+
+.middle-one{
+    margin-left: 80px;
+    padding-top: 40px;
+}
+
+.middle-one h2{
+    padding-top: 30px;
+}
+
+.middle-one p{
+    color: gray;
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* button for middle section starts here */
+
+.button-middle{
+    margin-top: 18px;
+}
+
+.button-middle-one button{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.button-middle-one button:hover{
+    border: 1px solid blue;
+}
+
+.button-middle-one a{
+    text-decoration: none;
+    color: black; 
+}
+
+.button-middle-one a:hover{
+    color: blue;
+}
+
+.button-middle-two{
+    margin-left: 10px;
+}
+
+.button-middle-two button{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.button-middle-two button:hover{
+    border: 1px solid blue;
+}
+
+.button-middle-two a{
+    text-decoration: none;
+    color: black; 
+}
+
+.button-middle-two a:hover{
+    color: blue;
+}
+
+/* Middle one: h2 tag, p tag and buttons ends here */
+
+.middle-section-two{
+    margin-left: 180px;
+}
+
+.section-wrapper{
+    margin-top: 50px;
+}
+
+.section-one{
+    margin-left: 600px;
+}
+
+.section-one h2{
+    font-weight: 500;
+    font-size: 34px;
+    padding-left: 40px;
+}
+
+.section-two{
+    margin-left: 500px;
+    margin-top: 16px;
+}
+
+.section-two p{
+    color: gray;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.section-two .first{
+    padding-left: 16px;
+}
+
+.section-two .third{
+    padding-left: 102px;
+}
+
+.section-three{
+    margin-left: 480px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.section-three a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.section-three a:hover{
+    color: red;
+}
+
+/* Fourth wrapper starts here */
+
+.fourth-wrapper{
+    margin-top: 24px;
+}
+
+.picture-frame{
+    margin-left: 80px;
+    padding-left: 10px;
+}
+
+.fouth-letters{
+    margin-left: 40px;
+    padding-left: 80px;
+}
+
+.heavy-letters h2{
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.light-letters p{
+    padding-top: 20px;
+    color: gray;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.letters-button{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.letters-button button{
+    padding: 8px;
+    background-color: rgb(85, 85, 250);
+    border: 1px solid rgb(85, 85, 250);
+    border-radius: 5px;
+}
+
+.letters-button button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+/* Lower wrapper begins here */
+
+.lower-wrapper{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.lower-wrapper h2{
+    padding-left: 530px;
+    padding-top: 20px;
+}
+
+.lower-wrapper  p{
+    color: gray;
+    padding-left: 450px;
+}
+
+/* Image wrapper begins here */
+
+.image-wrapper{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.image-one{
+    border: 1px solid gray;
+    background-color: white;
+    margin-left: 280px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.image-one img{
+    height: 80px;
+    width: 80px;
+    margin-left: 35px;
+}
+
+.image-one strong{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.image-one p{
+    color: gray;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.image-one button{
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(85, 85, 250);
+    border: 1px solid rgb(85, 85, 250);
+    border-radius: 5px;
+}
+
+.image-one button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.image-two{
+    border: 1px solid gray;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.image-two img{
+    height: 80px;
+    width: 80px;
+    margin-left: 30px;
+}
+
+.image-two strong{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.image-two p{
+    color: gray;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.image-two button{
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(85, 85, 250);
+    border: 1px solid rgb(85, 85, 250);
+    border-radius: 5px;
+}
+
+.image-two button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.image-three{
+    border: 1px solid gray;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.image-three img{
+    height: 80px;
+    width: 80px;
+    margin-left: 30px;
+}
+
+.image-three strong{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.image-three p{
+    color: gray;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.image-three button{
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(85, 85, 250);
+    border: 1px solid rgb(85, 85, 250);
+    border-radius: 5px;
+}
+
+.image-three button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* Image wrapper ends here */
