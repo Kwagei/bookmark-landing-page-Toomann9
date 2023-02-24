@@ -6,6 +6,11 @@
 
 /* Universal selector */
 
+.container-parent{
+    background-color: white;
+    padding-bottom: 11%;
+}
+
 .nav-bar{
     margin-top: 20px;
 }
@@ -422,7 +427,143 @@
     color: white;
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* Image wrapper ends here */
+
+.after-image hr{
+    margin-top: 2%;
+    margin-left: 37%;
+    width: 34%;
+}
+
+.after-image button{
+    margin-top: 5%;
+    margin-left: 50%;
+    background-color: rgb(102, 102, 218);
+    color: white;
+    padding: 16px 22px;
+    font-size: 16px;
+    border: 1px solid rgb(102, 102, 218);
+    border-radius: 8px;
+    /* width: 34%; */
+}
+
+.after-image-one{
+    margin-left: 40%;
+    margin-top: 8%;
+}
+
+.after-image-one h2{
+    margin-left: 5%;
+    /* margin-top: 8%; */
+}
+
+.after-image-one .spec{
+    margin-top: 2%;
+}
+
+.after-image-one p{
+    color: gray;
+    font-size: 16px;
+}
+
+.after-image-two{
+    margin-left: 37.5%;
+    margin-top: 1.5%;
+}
+
+.after-image-two i{
+    color: blue;
+    margin-left: 32%;
+    /* margin-top: 1.5%; */
+}
+
+
+.after-image-three{
+    margin-left: 37.5%;
+    margin-top: 1.5%;
+}
+
+.after-image-three i{
+    color: red;
+    margin-left: 18.5%;
+    /* margin-top: 1.5%; */
+}
+
+.after-image-four{
+    margin-left: 36%;
+    margin-top: 1.5%;
+}
+
+.after-image-four p{
+    color: gray;
+    font-size: 16px;
+    margin-top: 3.5%;
+    margin-left: 2.5%;
+}
+
+.after-image-five{
+    margin-left: 36%;
+    margin-top: 1.5%;
+}
+
+.after-image-five strong{
+    margin-left: 2.5%;
+    margin-top: 1.5%;
+}
+
+.after-image-five i{
+    margin-left: 29.5%;
+    color: blue;
+}
+
+.after-image-six{
+    margin-left: 36%;
+    margin-top: 1.5%;
+}
+
+.after-image-six strong{
+    margin-left: 2.5%;
+    margin-top: 1.5%;
+}
+
+.after-image-six i{
+    margin-left: 14.5%;
+    color: blue;
+}
+
+/* After Image Ends Here */
+
+footer{
+    background-color: rgb(62, 62, 212);
+    padding-top: 5%;
+    /* height: 100vh; */
+}
+
+.footer-one{
+    margin-left: 45%;
+}
+
+.footer-one p{
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 8.5px;
+    margin-bottom: 4%;
+}
+
+footer strong{
+    margin-left: 40%;
+    margin-top: 8%;
+    color: white;
+    font-weight: 600;
+    font-size: 37px;
+    /* letter-spacing: 8.5px; */
+}
+
+.footer-button{
+    display: flex;
+    justify-content: space-between 20px;
+}
