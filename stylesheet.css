@@ -397,7 +397,7 @@
     padding-right: 40px;
 }
 
-.image-three img{
+#opera{
     height: 80px;
     width: 80px;
     margin-left: 30px;
@@ -539,11 +539,12 @@
 footer{
     background-color: rgb(62, 62, 212);
     padding-top: 5%;
+    padding-bottom: 5%;
     /* height: 100vh; */
 }
 
 .footer-one{
-    margin-left: 45%;
+    margin-left: 40%;
 }
 
 .footer-one p{
@@ -555,7 +556,7 @@ footer{
 }
 
 footer strong{
-    margin-left: 40%;
+    margin-left: 37%;
     margin-top: 8%;
     color: white;
     font-weight: 600;
@@ -563,7 +564,50 @@ footer strong{
     /* letter-spacing: 8.5px; */
 }
 
-.footer-button{
-    display: flex;
-    justify-content: space-between 20px;
+.footer-button input{
+    /* margin-left: 6%; */
+    padding: 16px 28px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.footer-button button{
+    /* display: flex; */
+    margin-left: 4%;
+    padding: 16px 24px;
+    border-radius: 5px;
+    border: 1px solid red;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-button button p{
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-button button p:hover{
+    color: red;
+    cursor: grab;
+}
+
+
+.footer-button .footer-button-button{
+    margin-bottom: 2%;
+}
+
+/* Footer Lower End Starts Here */
+
+.footer-lower-end a{
+    padding-top: 0.4%;
+    margin-left: 4.5%;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-lower-end a:hover{
+    color: red;
+    cursor: grab;
 }
