@@ -629,6 +629,13 @@ footer strong{
 }
 
 @media (min-width: 390px) and (max-width: 840px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
     .container-parent{
         display: block;
         flex-direction: column;
@@ -739,10 +746,10 @@ footer strong{
 
     /* Middle section ends here */
 
-    #phone-below-middle-section{
+    /* #phone-below-middle-section{
         display: flex;
         flex-direction: column;
-    }
+    } */
 
     .section-wrapper-phone{
         margin-top: 4%;
@@ -804,8 +811,120 @@ footer strong{
     }
 
     .fouth-letters-phone{
-        font-size: 12px;
+        /* font-size: 12px; */
         margin-top: 2.5%;
+    }
+
+    .heavy-letters-phone{
+        padding-left: 48.7px;
+        padding-top: 8px;
+    }
+
+    .heavy-letters-phone h2{
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .light-letters-phone{
+        margin-top: 2.5%;
+    }
+
+    .light-letters-phone p{
+        font-size: 12px;
+        padding-left: 10px;
+        color: gray;
+    }
+
+    .letters-button-phone{
+        margin-top: 1.75%;
+        margin-left: 23%;
+    }
+
+    .letters-button-phone a{
+        text-decoration: none;
+        color: black;
+    }
+
+    /* lower wrapper starts here */
+
+    .lower-wrapper-phone{
+        margin-top: 2.5%;
+        margin-left: 1%;
+    }
+
+    .lower-wrapper-phone h2{
+        font-size: 14px;
+        padding-left: 46.75px;
+    }
+
+    .lower-wrapper-phone p{
+        color: gray;
+        font-size: 14px;
+        margin-top: 1.5%;
+        padding-left: 8px;
+    }
+
+    /* Image wrapper start here */
+
+    .image-wrapper-phone{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4.75%;
+    }
+
+    #image-line{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #image-line img{
+        width: 80px;
+        height: auto;
+        padding-left: 95px;
+    }
+
+    #image-line strong{
+        font-size: 16px;
+        padding-left: 75px;
+        padding-top: 4px;
+    }
+
+    #image-line p{
+        padding-top: 4px;
+        font-size: 16px;
+        padding-left: 65px;
+    }
+
+    #image-line hr{
+        width: 43%;
+        margin-top: 4px;
+        margin-left: 60px;
+    }
+
+    #image-line a{
+        color: black;
+        text-decoration: none;
+    }
+
+    #image-line button{
+        margin-top: 4px;
+        width: 180px;
+        height: auto;
+        margin-left: 54px;
+        padding: 8px 4px;
+        border-radius: 5px;
+    }
+
+    .image-two-phone{
+        margin-top: 4%;
+    }
+
+    .image-three-phone{
+        margin-top: 4%;
+    }
+
+    .after-image-phone{
+        margin-top: 4%;
     }
 }
 
