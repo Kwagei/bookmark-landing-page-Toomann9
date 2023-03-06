@@ -628,11 +628,11 @@ footer strong{
     margin-left: 58%;
 }
 
-@media (min-width: 390px) and (max-width: 740px) {
+@media (min-width: 390px) and (max-width: 840px) {
     .container-parent{
         display: block;
         flex-direction: column;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
 
     .nav-bar{
@@ -643,28 +643,50 @@ footer strong{
         display: none;
     }
 
+    /* Nav bar begin here */
+
     .nav-bar-phone{
-        display: block;
-        /* justify-content: start; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     .nav-two-phone{
         display: flex;
-        margin-left: 5%;
-        padding-top: 10px;
-        justify-content: space-evenly;
-        align-items: center
+        margin-left: 1%;
+        padding: 4px 8px;
+        /* justify-content: space-evenly; */
+        /* align-items: center */
     }
 
+    #space{
+        padding-left: 15px;
+    }
     .nav-two-phone a{
         text-decoration: none;
         color: black;
+        font-size: 8px;
+    }
+
+    .navlink-phone{
+        justify-content: left
+        /* display: ; */
     }
 
     .nav-one-phone{
-        margin-left: 5%;
+        width: 50px;
         margin-top: 2%;
     }
+
+
+    .nav-one-phone img{
+        margin-top: 2%;
+        width: 80px;
+        height: 20px;
+        margin-left: 4%;
+    }
+
+    /* Nav bar ends here */
 
     #phone{
         display: flex;
@@ -673,25 +695,117 @@ footer strong{
 
     .middle-section-phone{
         display: flex;
-        flex-direction: column-reverse;
-        margin-top: 5%;
-        margin-left: 10%;
+        flex-direction: row;
+        margin-top: 2%;
+        margin-left: 3%;
         /* justify-content: center; */
     }
 
     .middle-one-phone{
-        margin-top: 3%;
-        margin-left: 10%;
+        margin-top: 2%;
+        margin-left: 1%;
     }
 
     .middle-one-phone h2{
-        margin-left: 20%;
+        margin-left: 2%;
+        font-size: 12px;
     }
 
     .middle-one-phone p{
         margin-top: 3%;
-        margin-left: 15%;
-        font-size: 24px;
+        margin-left: 2%;
+        font-size: 10px;
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+    .middle-one-phone button{
+        margin-top: 6%;
+        /* margin-left: 15%; */
+        /* flex-wrap: wrap; */
+        /* padding: 4%; */
+        /* width: 20px; */
+    }
+
+    .middle-one-phone button a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .middle-section-two-phone img{
+        width: 80px;
+        height: 60px;
+    }
+
+    /* Middle section ends here */
+
+    #phone-below-middle-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-wrapper-phone{
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+
+    .section-one-phone{
+        padding-left: 100px;
+    }
+
+    .section-one-phone h2{
+        font-size: 18px;
+    }
+
+    .section-one-phone p{
+        font-size: 10px;
+        font-weight: 400;
+        padding-left: 10px;
+        color: gray;
+    }
+
+    .section-three-phone{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        margin-left: 14%;
+    }
+
+    .section-three-phone a{
+        color: gray;
+        text-decoration: none;
+    }
+
+    .section-three-phone a:hover{
+        color: red;
+    }
+
+    .section-three-phone hr{
+        width: 44%;
+        margin-top: 1.5%;
+    }
+
+    /* Fourth wrapper starts here */
+
+    .fourth-wrapper-phone{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4%;
+        margin-left: 2.5%;
+    }
+
+    .fourth-wrapper-phone img{
+        width: 150px;
+        height: auto;
+    }
+
+    .picture-frame-phone{
+        padding-left: 50px;
+    }
+
+    .fouth-letters-phone{
+        font-size: 12px;
+        margin-top: 2.5%;
     }
 }
 
