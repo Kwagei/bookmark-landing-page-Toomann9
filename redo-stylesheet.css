@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tablet{
+    display: none;
+}
+
+#phone{
+    display: none;
+}
+
+@media (max-width: 780px){}
+
+@media (max-width: 414px){}
