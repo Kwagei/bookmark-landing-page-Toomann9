@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 #tablet{
@@ -11,6 +12,647 @@
 #phone{
     display: none;
 }
+/* Header starts here */
+
+.nav-bar{
+    margin-top: 1.7%;
+    margin-left: 0.5%;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+}
+
+
+.nav-one-image{
+    width: 180px;
+    /* border: 1px solid blue; */
+    padding-left: 30px;
+}
+
+.nav-one-image img{
+    width: 120px;
+    height: auto;
+    /* border: 1px solid blue; */
+}
+
+.nav-two-links{
+    display: flex;
+    margin-left: 50%;
+    padding-top: 5px;
+}
+
+.nav-two-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.nav-two-links a:hover{
+    color: red;
+    font-weight: 600;
+}
+
+.navlink-space{
+    margin-left: 50px;
+    
+}
+
+.navlink-button{
+    margin-left: 30px;
+}
+
+.navlink-button button{
+    width: 80px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.navlink-button button:hover{
+    border: 2px solid rgb(255, 0, 0);
+    font-weight: 600;
+}
+
+/* Nav Bar ends here */
+
+.middle-section{
+    margin-top: 3.5%;
+    margin-left: 0.5%;
+    display: flex;
+}
+
+.middle-section-title{
+    margin-left: 80px;
+    padding-top: 40px;
+}
+
+.middle-section-title h2{
+    padding-top: 70px;
+}
+
+.middle-section-title p{
+    color: gray;
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.middle-section-button{
+    margin-top: 18px;
+    display: flex;
+}
+
+.middle-section-button button{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+}
+
+.middle-section-button button:hover{
+    border: 1px solid blue;
+}
+
+.middle-section-button a{
+    text-decoration: none;
+    color: black; 
+}
+
+.middle-section-button a:hover{
+    color: blue;
+}
+
+.button-middle-two{
+    margin-left: 10px;
+}
+
+.middle-section-image{
+    margin-left: 180px;
+    margin-top: 18px;
+    /* border: 1px solid red; */
+    width: 60%;
+    height: 300px;
+    background-color: blue;
+    border-bottom-left-radius: 150px;
+    border-top-left-radius: 150px;
+}
+
+.middle-section-image img{
+    width: 550px;
+    box-shadow: transparent 10px 12px 1px 10px;
+    margin-right: 60px;
+}
+
+.contents-section-wrapper{
+    margin-top: 4.7%;
+}
+
+.contents-section-one{
+    margin-left: 630px;
+}
+
+.contents-section-one h2{
+    font-weight: 500;
+    font-size: 34px;
+    padding-left: 40px;
+}
+
+.contents-section-two{
+    margin-left: 500px;
+    margin-top: 16px;
+}
+
+.contents-section-two p{
+    color: gray;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.contents-section-two .first{
+    padding-left: 16px;
+}
+
+.contents-section-two .third{
+    padding-left: 102px;
+}
+
+.contents-section-three{
+    margin-left: 480px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.contents-section-three a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.contents-section-three a:hover{
+    color: red;
+}
+
+.contents-section-three hr{
+    width: 53.4%;
+    margin-top: 4%;
+}
+
+/* Fourth wrapper starts here */
+
+.fourth-wrapper{
+    padding-top: 34px;
+    display: flex;
+}
+
+.picture-frame{
+    padding: 5.5%;
+    /* padding-bottom: 2%; */
+    background-color: blue;
+    height: 300px;
+    border-bottom-right-radius: 150px;
+    border-top-right-radius: 150px;
+}
+
+.picture-frame img{
+    width: 520px;
+    height: 270px;
+    padding-left: 80px;
+    padding-bottom: 28px;
+    box-shadow: transparent 10px 12px 1px 10px;
+}
+
+.fouth-section-letters{
+    margin-left: 60px;
+    padding-left: 100px;
+}
+
+.heavy-letters h2{
+    padding-top: 60px;
+    padding-left: 60px;
+    font-size: 25px;
+}
+
+.light-letters p{
+    padding-top: 20px;
+    color: gray;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.letters-button{
+    /* margin-top: 1%; */
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.letters-button button{
+    padding: 18px 16px;
+    background-color: rgb(85, 85, 250);
+    border: 1px solid rgb(85, 85, 250);
+    border-radius: 8px;
+}
+
+.letters-button button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+/* Lower wrapper and Image block starts here */
+
+.lower-wrapper{
+    margin-top: 2.7%;
+    margin-left: 80px;
+}
+
+.lower-wrapper h2{
+    padding-left: 530px;
+    padding-top: 20px;
+}
+
+.lower-wrapper  p{
+    color: gray;
+    padding-left: 450px;
+    padding-top: 0.2%;
+}
+
+/* Image wrapper begins here */
+
+.image-wrapper{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+/* Image One begins */
+
+.image-one{
+    width: 18%;
+    height: 300px;
+    border: 1px solid gray;
+    background-color: white;
+    margin-left: 280px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: rgb(194, 194, 240) 6px 5px 10px 8px;
+    border-radius: 15px;
+}
+
+.image-one img{
+    height: 80px;
+    width: 80px;
+    margin-left: 35px;
+}
+
+.image-one strong{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.image-one p{
+    color: gray;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+.image-one button{
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(85, 85, 250);
+    border: 1px solid rgb(85, 85, 250);
+    border-radius: 5px;
+}
+
+.image-one button:hover{
+    background-color: white;
+    border: 2px solid blue;
+}
+
+.image-one button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.image-one button a:hover{
+    color: blue;
+    font-weight: 600;
+}
+
+/* Image Two begins */
+
+.image-two{
+    border: 1px solid gray;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 18%;
+    height: 300px;
+    box-shadow: rgb(194, 194, 240) 6px 5px 10px 8px;
+    border-radius: 15px;
+}
+
+.image-two img{
+    height: 80px;
+    width: 80px;
+    margin-left: 30px;
+}
+
+.image-two strong{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.image-two p{
+    color: gray;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+.image-two button{
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(85, 85, 250);
+    border: 1px solid rgb(85, 85, 250);
+    border-radius: 5px;
+}
+
+.image-two button:hover{
+    background-color: white;
+    border: 2px solid blue;
+}
+
+.image-two button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.image-two button a:hover{
+    color: blue;
+    font-weight: 600;
+}
+
+/* Image Three Begins */
+
+.image-three{
+    border: 1px solid gray;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 18%;
+    height: 300px;
+    box-shadow: rgb(194, 194, 240) 6px 5px 10px 8px;
+    border-radius: 15px;
+}
+
+.image-three img{
+    height: 80px;
+    width: 80px;
+    margin-left: 30px;
+}
+
+.image-three strong{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.image-three p{
+    color: gray;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+.image-three button{
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(85, 85, 250);
+    border: 1px solid rgb(85, 85, 250);
+    border-radius: 5px;
+}
+
+.image-three button:hover{
+    background-color: white;
+    border: 2px solid blue;
+}
+
+.image-three button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.image-three button a:hover{
+    color: blue;
+    font-weight: 600;
+}
+
+/* after-image-container begins here */
+
+.after-image{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.after-image hr{
+    margin-top: 2%;
+    margin-left: 37%;
+    width: 34%;
+}
+
+.after-image button{
+    margin-top: 5%;
+    margin-left: 48.7%;
+    width: 10%;
+    background-color: rgb(102, 102, 218);
+    color: white;
+    padding: 18px 20px;
+    font-size: 16px;
+    border: 1px solid rgb(102, 102, 218);
+    border-radius: 8px;
+    /* width: 34%; */
+}
+
+.after-image-title{
+    /* border: 1px solid red; */
+    padding-left: 36%;
+    padding-top: 2%;
+}
+
+.after-image-title h2{
+    font-size: 28px;
+    padding-left: 4.5%;
+}
+
+.after-image-title p{
+    padding-top: 8px;
+    color: gray;
+    font-size: 18px;
+}
+
+.spec{
+    padding-left: 5.5%;
+}
+
+/* After Image two, three and four begins */
+
+.after-image-two{
+    margin-left: 37.5%;
+    margin-top: 1.5%;
+}
+
+.after-image-two i{
+    color: blue;
+    margin-left: 32%;
+}
+
+.after-image-three{
+    margin-left: 37.5%;
+    margin-top: 1.5%;
+}
+
+.after-image-three i{
+    color: red;
+    margin-left: 18.5%;
+}
+
+.after-image-four{
+    margin-left: 35.7%;
+    margin-top: 1.5%;
+}
+
+.after-image-four p{
+    color: gray;
+    font-size: 16px;
+    margin-top: 3.5%;
+    margin-left: 2.2%;
+}
+/* After Image five and six begins */
+
+.after-image-five{
+    margin-left: 36%;
+    margin-top: 1.5%;
+}
+
+.after-image-five strong{
+    margin-left: 2.5%;
+    margin-top: 1.5%;
+}
+
+.after-image-five i{
+    margin-left: 28.5%;
+    color: blue;
+}
+
+.after-image-six{
+    margin-left: 36%;
+    margin-top: 1.5%;
+}
+
+.after-image-six strong{
+    margin-left: 2.5%;
+    margin-top: 1.5%;
+}
+
+.after-image-six i{
+    margin-left: 12.5%;
+    color: blue;
+}
+
+/* Footer begins here */
+
+footer{
+    margin-top: 6.7%;
+    background-color: rgb(62, 62, 212);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footer-one{
+    margin-left: 42%;
+}
+
+.footer-one p{
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 8.5px;
+    margin-bottom: 4%;
+}
+
+footer strong{
+    margin-left: 38.5%;
+    margin-top: 8%;
+    color: white;
+    font-weight: 600;
+    font-size: 37px;
+}
+
+.footer-two{
+    display: flex;
+    border: 1px solid red;
+    padding-left: 35%;
+    margin-top: 2%;
+}
+
+.footer-input input{
+    padding: 16px 28px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px gray;
+}
+
+.footer-two-button {
+    margin-left: 4%;
+}
+
+.footer-two-button button{
+    display: flex;
+    padding: 16px 34px;
+    border-radius: 5px;
+    border: 1px gray;
+}
+
+.footer-two-button button:hover{
+    border: 2px solid red;
+}
+
+.footer-two-button button p{
+    margin-left: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-two-button button p:hover{
+    color: red;
+    font-weight: 600;
+}
+/* Responsive Work Begins Here */
 
 @media (max-width: 780px){}
 
