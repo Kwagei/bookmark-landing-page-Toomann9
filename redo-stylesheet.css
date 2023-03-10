@@ -5,11 +5,11 @@
     font-family: sans-serif;
 }
 
-#tablet{
+.container-tablet{
     display: none;
 }
 
-#phone{
+.container-phone{
     display: none;
 }
 /* Header starts here */
@@ -615,9 +615,22 @@ footer strong{
 
 .footer-two{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-left: 35%;
     margin-top: 2%;
+}
+
+.footer-input{
+    border: 1px solid red;
+    border-radius: 8px;
+    background-color: red;
+}
+
+.footer-input p{
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
 }
 
 .footer-input input{
@@ -640,6 +653,7 @@ footer strong{
 
 .footer-two-button button:hover{
     border: 2px solid red;
+    cursor: grab;
 }
 
 .footer-two-button button p{
@@ -652,8 +666,253 @@ footer strong{
     color: red;
     font-weight: 600;
 }
+
+/* Lower footer section begin here */
+
+.footer-lower-end{
+    display: flex;
+    background-color: rgb(25, 25, 53);
+    padding-top: 4%;
+    padding-bottom: 2.75%;
+    padding-left: 10%;
+}
+
+.footer-lower-end a{
+    padding-top: 0.4%;
+    margin-left: 4.5%;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-lower-end a:hover{
+    color: red;
+    cursor: grab;
+}
+
+#footer-links{
+    margin-left: 8%;
+}
+
+.footer-icons{
+    margin-left: 33%;
+    /* display: flex; */
+    justify-content: space-evenly;
+}
+
+.footer-icons i{
+    padding-left: 24px;
+}
 /* Responsive Work Begins Here */
 
-@media (max-width: 780px){}
+@media (max-width: 780px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
 
-@media (max-width: 414px){}
+    .container-desktop{
+        display: none;
+    }
+    
+    .container-phone{
+        display: none;
+    }
+
+    /* Tablet Responsive starts */
+
+    .container-tablet{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-bar{
+        display: flex;
+        margin: 0;
+    }
+
+    .nav-one-image{
+        margin: 0;
+        padding: 0;
+        width: 50px;
+        /* border: 1px solid red; */
+    }
+
+    .nav-one-image img{
+        width: 50px;
+        height: auto;
+        margin: 4px;
+        padding-top: 2.55px;
+        padding-right: 6px;
+    }
+
+    .nav-two-links{
+        margin-left: 2px;
+        padding: 0;
+        /* border: 1px solid red; */
+        width: 200px;
+        height: auto;
+    }
+
+    .navlink-one a{
+        padding: 0;
+        margin: 0;
+        font-size: 7px;
+        font-weight: 400;
+        /* border: 1px solid red; */
+    }
+
+    .navlink-space{
+        margin: 0;
+        padding-left: 4px;
+    }
+
+    .navlink-space a{
+        padding: 0;
+        margin: 0;
+        font-size: 7px;
+        font-weight: 400;
+        /* border: 1px solid red; */
+    }
+
+    .navlink-button{
+        margin-left: 4px;
+        padding: 0;
+        /* border: 1px solid red; */
+    }
+
+    .navlink-button button{
+        padding: 0;
+        margin: 0;
+        width: 40px;
+        height: 16px;
+        border: 0.5px solid gray;
+    }
+
+    .navlink-button button a{
+        padding: 0;
+        margin: 0;
+        font-size: 7px;
+        font-weight: 400;
+        /* border: 1px solid red; */
+    }
+    /* Nav bar and Header done */
+
+    .middle-section{
+        display: flex;
+        flex-direction: column;
+        width: 236px;
+        padding: 0;
+        margin-top: 8px;
+        /* border: 1px solid red; */
+    }
+
+    .middle-section-title{
+        margin: 4px;
+        padding: 0;
+    }
+
+    .middle-section-title h2{
+        margin-left: 44px ;
+        padding: 0;
+        display: flex;
+        font-size: 10px;
+        /* border: 1px solid blue; */
+    }
+
+    .middle-section-title p{
+        margin: 0;
+        padding-top: 4px;
+        padding-left: 4px;
+        font-size: 10px;
+    }
+
+    .middle-section-button{
+        display: flex;
+        margin-bottom: 8px;
+        /* border: 1px solid blue; */
+    }
+
+    .button-middle-one button{
+        width: 80px;
+        height: 25px;
+        padding: 0;
+        margin-left: 8px;
+    }
+
+    .button-middle-one button a{
+        font-size: 8px;
+        padding: 0;
+    }
+
+    .button-middle-two button{
+        width: 80px;
+        height: 25px;
+        padding: 0;
+        margin-left: 25px;
+    }
+
+    .button-middle-two button a{
+        font-size: 8px;
+        padding: 0;
+    }
+
+    .middle-section-image{
+        margin: 0;
+        padding-top: 10px;
+        /* background: none; */
+        /* border: 1px solid purple; */
+        width: 210px;
+        height: auto;
+    }
+
+    .middle-section-image img{
+        width: 198px ;
+        height: auto;
+        padding-left: 20px;
+    }
+
+    /* Middle Section Done */
+
+    .contents-section-wrapper{
+        margin: 0;
+        padding: 0;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+    }
+
+    .contents-section-one{
+        margin: 8px 0;
+        padding: 0;
+        /* border: 1px solid green; */
+        width: 220px;
+    }
+
+    .contents-section-one h2{
+        font-size: 16px;
+        padding-left: 93px;
+    }
+}
+
+/* Phone Responsive Starts */
+
+@media (max-width: 414px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    .container-desktop{
+        display: none;
+    }
+    
+    .container-tablet{
+        display: none;
+    }
+}

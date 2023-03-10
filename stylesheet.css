@@ -41,40 +41,11 @@
 
 
 
-.footer-button button p{
-    letter-spacing: 4px;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.footer-button button p:hover{
-    color: red;
-    cursor: grab;
-}
-
-
 .footer-button .footer-button-button{
     margin-bottom: 2%;
 }
 
 /* Footer Lower End Starts Here */
-
-.footer-lower-end a{
-    padding-top: 0.4%;
-    margin-left: 4.5%;
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.footer-lower-end a:hover{
-    color: red;
-    cursor: grab;
-}
-
-#footer-links{
-    margin-left: 58%;
-}
 
 /* Responsive design begins here */
 
