@@ -705,38 +705,8 @@ footer strong{
 }
 /* Responsive Work Begins Here */
 
-@media (max-width: 880px){
-    .container-desktop{
-        display: none;
-    }
-    
-    .container-phone{
-        display: none;
-    }
-
-    .container-tablet{
-        display: flex;
-        flex-direction: column;
-        /* border: 1px solid green; */
-        width: 880px;
-        /* padding-left: 12px; */
-    }
-
-    .nav-bar{
-        display: flex;
-        margin: 0;
-        padding: 0;
-    }
-
-    .nav-one-image{
-        margin: 0 4px 0 0;
-        padding: 0;
-        width: 170px;
-        /* border: 1px solid red; */
-    }
-}
 /* Tablet Version */
-@media (max-width: 780px){
+@media screen and (max-width: 780px){
 
     .container-desktop{
         display: none;
@@ -752,7 +722,7 @@ footer strong{
         display: flex;
         flex-direction: column;
         /* border: 1px solid green; */
-        width: 762px;
+        width: 780px;
         padding-left: 4px;
     }
 
@@ -1289,6 +1259,8 @@ footer strong{
     /* still working on responsiveness */
 }
 
+
+
 /* Phone Responsive Starts */
 
 @media (max-width: 414px){
@@ -1301,3 +1273,5 @@ footer strong{
         display: none;
     }
 }
+
+/* 
