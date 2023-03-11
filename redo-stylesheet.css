@@ -705,6 +705,37 @@ footer strong{
 }
 /* Responsive Work Begins Here */
 
+@media (max-width: 880px){
+    .container-desktop{
+        display: none;
+    }
+    
+    .container-phone{
+        display: none;
+    }
+
+    .container-tablet{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid green; */
+        width: 880px;
+        /* padding-left: 12px; */
+    }
+
+    .nav-bar{
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-one-image{
+        margin: 0 4px 0 0;
+        padding: 0;
+        width: 170px;
+        /* border: 1px solid red; */
+    }
+}
+/* Tablet Version */
 @media (max-width: 780px){
 
     .container-desktop{
@@ -720,9 +751,9 @@ footer strong{
     .container-tablet{
         display: flex;
         flex-direction: column;
-        border: 1px solid green;
+        /* border: 1px solid green; */
         width: 762px;
-        padding-left: 12px;
+        padding-left: 4px;
     }
 
     .nav-bar{
@@ -1089,9 +1120,172 @@ footer strong{
     .after-image{
         margin: 0;
         padding: 0;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
     }
 
+    .after-image button{
+        margin: 15px 290px;
+        padding: 20px 22px;
+        width: 200px;
+    }
+
+    .after-image hr{
+        margin: 30px 130px;
+        padding: 0;
+        width: 500px;
+    }
+
+    .after-image-title{
+        margin: 70px 0;
+        padding: 0 40px;
+        /* border: 1px solid rgb(251, 255, 0); */
+    }
+
+    .after-image-title h2{
+        font-size: 28px;
+        padding: 18px 140px;
+    }
+
+    .after-image-title p{
+        font-size: 26px;
+    }
+
+    .after-image-two{
+        margin: 0;
+        padding: 0;
+        /* border: 1px solid rgb(251, 255, 0); */
+    }
+
+    .after-image-two strong{
+        font-size: 26px;
+        padding-left: 140px;
+    }
+
+    .after-image-two i{
+        padding: 0;
+        margin-left: 200px;
+        margin-top: 0;
+        /* width: 60px; */
+        /* border: 1px solid red; */
+    }
+
+    /* after image three */
+    .after-image-three{
+        margin: 0;
+        padding: 0;
+        /* border: 1px solid rgb(251, 255, 0); */
+    }
+
+    .after-image-three strong{
+        font-size: 26px;
+        padding-left: 140px;
+    }
+
+    .after-image-three i{
+        padding: 0;
+        margin-left: 16px;
+        margin-top: 0;
+        /* width: 60px; */
+        /* border: 1px solid red; */
+    }
+
+    /* after image four */
+
+    .after-image-four{
+        margin: 60px 0;
+        padding: 0;
+        /* border: 1px solid rgb(251, 255, 0); */
+    }
+
+    .after-image-four p{
+        font-size: 24px;
+    }
+
+    /* after image five */
+
+    .after-image-five{
+        margin: 0;
+        padding: 0;
+        /* border: 1px solid rgb(251, 255, 0); */
+    }
+
+    .after-image-five strong{
+        font-size: 26px;
+        padding-left: 122px;
+    }
+
+    .after-image-five i{
+        padding: 0;
+        margin-left: 180px;
+        margin-top: 0;
+    }
+
+    /* after image six */
+
+    .after-image-six{
+        margin: 0;
+        padding: 0;
+        /* border: 1px solid rgb(251, 255, 0); */
+    }
+
+    .after-image-six strong{
+        font-size: 22px;
+        padding-left: 122px;
+    }
+
+    .after-image-six i{
+        padding: 0;
+        margin-left: 40px;
+        margin-top: 0;
+    }
+
+    /* footer begins here */
+
+    footer{
+        margin-left: 0;
+        margin-top: 50px;
+        padding: 0;
+        /* border: 2px solid black; */
+    }
+
+    .footer-one{
+        margin: 80px 0;
+        padding: 0 150px;
+        /* border: 2px solid black; */
+    }
+
+    .footer-one p{
+        font-size: 20px;
+    }
+
+    footer strong{
+        margin: 0;
+        padding: 0 140px;
+        /* border: 2px solid black; */
+        font-size: 38px;
+        /* width: ; */
+    }
+
+    .footer-two{
+        margin: 80px 0;
+        padding: 0 180px;
+    }
+
+    .footer-lower-end{
+        /* border: 2px solid red; */
+        margin: 0;
+        padding: 80px 30px;
+    }
+
+    .footer-lower-end img{
+        width: 180px;
+        height: auto;
+    }
+
+    .footer-lower-end a{
+        font-size: 20px;
+        padding-left: 30px;
+    }
     /* still working on responsiveness */
 }
 
