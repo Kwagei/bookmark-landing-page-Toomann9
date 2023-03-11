@@ -706,12 +706,6 @@ footer strong{
 /* Responsive Work Begins Here */
 
 @media (max-width: 780px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: sans-serif;
-    }
 
     .container-desktop{
         display: none;
@@ -726,6 +720,9 @@ footer strong{
     .container-tablet{
         display: flex;
         flex-direction: column;
+        border: 1px solid green;
+        width: 762px;
+        padding-left: 12px;
     }
 
     .nav-bar{
@@ -734,51 +731,52 @@ footer strong{
     }
 
     .nav-one-image{
-        margin: 0;
+        margin: 0 4px 0 0;
         padding: 0;
-        width: 50px;
+        width: 170px;
         /* border: 1px solid red; */
     }
 
     .nav-one-image img{
-        width: 50px;
+        width: 150px;
         height: auto;
         margin: 4px;
         padding-top: 2.55px;
         padding-right: 6px;
+        padding-left: 4px;
     }
 
     .nav-two-links{
-        margin-left: 2px;
-        padding: 0;
+        margin-left: 6px;
+        padding: 8px 0 0 0;
         /* border: 1px solid red; */
-        width: 200px;
+        width: 570px;
         height: auto;
     }
 
     .navlink-one a{
         padding: 0;
         margin: 0;
-        font-size: 7px;
+        font-size: 16px;
         font-weight: 400;
         /* border: 1px solid red; */
     }
 
     .navlink-space{
         margin: 0;
-        padding-left: 4px;
+        padding-left: 100px;
     }
 
     .navlink-space a{
         padding: 0;
         margin: 0;
-        font-size: 7px;
+        font-size: 16px;
         font-weight: 400;
         /* border: 1px solid red; */
     }
 
     .navlink-button{
-        margin-left: 4px;
+        margin-left: 40px;
         padding: 0;
         /* border: 1px solid red; */
     }
@@ -786,15 +784,15 @@ footer strong{
     .navlink-button button{
         padding: 0;
         margin: 0;
-        width: 40px;
-        height: 16px;
+        width: 68px;
+        height: 22px;
         border: 0.5px solid gray;
     }
 
     .navlink-button button a{
         padding: 0;
         margin: 0;
-        font-size: 7px;
+        font-size: 16px;
         font-weight: 400;
         /* border: 1px solid red; */
     }
@@ -803,7 +801,8 @@ footer strong{
     .middle-section{
         display: flex;
         flex-direction: column;
-        width: 236px;
+        width: 718px;
+        height: auto;
         padding: 0;
         margin-top: 8px;
         /* border: 1px solid red; */
@@ -812,64 +811,66 @@ footer strong{
     .middle-section-title{
         margin: 4px;
         padding: 0;
+        /* border: 1px solid blue; */
     }
 
     .middle-section-title h2{
-        margin-left: 44px ;
-        padding: 0;
+        margin-left: 34%;
+        padding: 20px 0 0 0;
         display: flex;
-        font-size: 10px;
+        font-size: 20px;
         /* border: 1px solid blue; */
     }
 
     .middle-section-title p{
         margin: 0;
-        padding-top: 4px;
-        padding-left: 4px;
-        font-size: 10px;
+        padding-top: 8px;
+        padding-left: 17%;
+        font-size: 28px;
     }
 
     .middle-section-button{
         display: flex;
-        margin-bottom: 8px;
+        margin: 20px 2px 8px 0;
         /* border: 1px solid blue; */
     }
 
     .button-middle-one button{
-        width: 80px;
-        height: 25px;
+        width: 158px;
+        height: 55px;
         padding: 0;
-        margin-left: 8px;
+        margin-left: 176px;
     }
 
     .button-middle-one button a{
-        font-size: 8px;
+        font-size: 18px;
         padding: 0;
     }
 
     .button-middle-two button{
-        width: 80px;
-        height: 25px;
+        width: 158px;
+        height: 55px;
         padding: 0;
-        margin-left: 25px;
+        margin-left: 55px;
     }
 
     .button-middle-two button a{
-        font-size: 8px;
+        font-size: 18px;
         padding: 0;
     }
 
     .middle-section-image{
-        margin: 0;
-        padding-top: 10px;
+        margin: 35px 0 0 0;
+        padding-top: 27px;
+        padding-left: 40px;
         /* background: none; */
         /* border: 1px solid purple; */
-        width: 210px;
+        width: 710px;
         height: auto;
     }
 
     .middle-section-image img{
-        width: 198px ;
+        width: 618px ;
         height: auto;
         padding-left: 20px;
     }
@@ -877,36 +878,226 @@ footer strong{
     /* Middle Section Done */
 
     .contents-section-wrapper{
-        margin: 0;
+        margin: 50px 0 0 0;
         padding: 0;
-        width: 250px;
+        width: 724px;
         display: flex;
         flex-direction: column;
-        border: 1px solid red;
+        /* border: 1px solid orangered; */
     }
 
     .contents-section-one{
         margin: 8px 0;
         padding: 0;
         /* border: 1px solid green; */
-        width: 220px;
+        /* width: 220px; */
     }
 
     .contents-section-one h2{
-        font-size: 16px;
-        padding-left: 93px;
+        font-size: 28px;
+        padding-left: 310px;
     }
+
+    .contents-section-two{
+        margin: 8px 0;
+        padding: 0;
+        /* border: 1px solid brown; */
+    }
+
+    .contents-section-two p{
+        font-size: 24px;
+    }
+
+    .contents-section-three{
+        margin: 36px 0;
+        padding: 0;
+        /* border: 1px solid brown; */
+    }
+
+    .contents-section-three a{
+        font-size: 22px;
+        padding-left: 50px;
+    }
+
+    .contents-section-three hr{
+        width: 88.80%;
+        margin-left: 44px;
+    }
+
+    .fourth-wrapper{
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+    .picture-frame{
+        height: auto;
+    }
+
+    .picture-frame img{
+        width: 600px;
+        height: 400px;
+    }
+
+    .fouth-section-letters{
+        /* border: 1px solid blueviolet; */
+        margin: 15px 0 0 0;
+        padding: 0;
+    }
+
+    .heavy-letters{
+        margin: 0;
+        padding: 0;
+    }
+
+    .heavy-letters h2{
+        margin: 0;
+        padding: 50px 218px;
+        font-size: 28px;
+    }
+
+    .light-letters{
+        /* border: 1px solid green; */
+        margin: 0;
+        padding: 0;
+    }
+
+    .light-letters p{
+        font-size: 26px;
+        padding: 0 80px;
+    }
+
+    .letters-button{
+        /* border: 1px solid green; */
+        margin: 50px 0;
+        padding: 0 310px;
+    }
+
+    .letters-button button{
+        padding: 22px 28px;
+    }
+
+    .lower-wrapper{
+        /* border: 1px solid green; */
+        margin: 40px 0;
+        padding: 0;
+    }
+
+    .lower-wrapper h2{
+        /* border: 1px solid green; */
+        margin:  0;
+        padding: 0 210px;
+        font-size: 26.5px;
+    }
+
+    .lower-wrapper p{
+        /* border: 1px solid green; */
+        margin: 12px 0;
+        padding: 0 40px;
+        font-size: 26px;
+    }
+
+    .image-wrapper{
+        /* border: 1px solid green; */
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+
+    .image-one{
+        margin: 18px 28px;
+        padding: 10px 30px;
+        /* border: 1px solid blue; */
+        width: 180px;
+    }
+
+    .image-one img{
+        width: 60px;
+        height: auto;
+        padding: 0;
+        margin: 0 30px;
+    }
+
+    .image-one strong{
+        margin: 12px 26px;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .image-one p{
+        font-size: 22px;
+        padding: 0 6px;
+    }
+
+    /* Image two */
+
+    .image-two{
+        margin: 68px 38px;
+        padding: 10px 30px;
+        /* border: 1px solid blue; */
+        width: 180px;
+    }
+
+    .image-two img{
+        width: 60px;
+        height: auto;
+        padding: 0;
+        margin: 0 30px;
+    }
+
+    .image-two strong{
+        margin: 12px 26px;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .image-two p{
+        font-size: 22px;
+        padding: 0 6px;
+    }
+
+    /* Image three */
+
+    .image-three{
+        margin-top: 118px;
+        margin-left: 30px;
+        padding: 10px 30px;
+        /* border: 1px solid blue; */
+        width: 180px;
+    }
+
+    .image-three img{
+        width: 60px;
+        height: auto;
+        padding: 0;
+        margin: 0 30px;
+    }
+
+    .image-three strong{
+        margin: 12px 26px;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .image-three p{
+        font-size: 22px;
+        padding: 0 6px;
+    }
+
+    .after-image{
+        margin: 0;
+        padding: 0;
+        border: 1px solid blue;
+    }
+
+    /* still working on responsiveness */
 }
 
 /* Phone Responsive Starts */
 
 @media (max-width: 414px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: sans-serif;
-    }
 
     .container-desktop{
         display: none;
