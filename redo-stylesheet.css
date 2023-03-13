@@ -1765,9 +1765,9 @@ footer strong{
 
 
 
-/* Phone Responsive Starts */
+/* Phone Responsive Starts
 
-/* @media only screen and (max-width: 414px){
+@media only screen and (max-width: 414px){
 
     .container-desktop{
         display: none;
@@ -1781,15 +1781,14 @@ footer strong{
         display: none;
     }
 
-    /* declaration begins */
+     declaration begins 
 
-    /* .container-phone{
+    .container-phone{
         display: flex;
         flex-direction: column;
         width: 414px;
         height: auto;
-        /* border: 1px solid red; */
+         border: 1px solid red; 
     } 
 } 
 
-/* 
