@@ -66,16 +66,23 @@
     margin-left: 30px;
 }
 
+.navlink-button a:hover{
+    color: white;
+}
+
 .navlink-button button{
-    width: 80px;
-    height: 20px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 2, 2);
+    border: 1px solid rgb(245, 4, 4);
+    box-shadow: 2px 1px 3px 2px;
     border-radius: 5px;
+    padding: 0;
+    margin: 0;
 }
 
 .navlink-button button:hover{
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px solid rgb(247, 239, 239);
     font-weight: 600;
 }
 
@@ -109,10 +116,15 @@
 }
 
 .middle-section-button button{
-    padding: 8px;
+    padding: 12px 8px;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     border: 1px solid gray;
+    box-shadow: 2px 1px 2px 1px;
+}
+
+.button-middle-one button{
+    background-color: rgb(83, 83, 230);
 }
 
 .middle-section-button button:hover{
@@ -1765,9 +1777,9 @@ footer strong{
 
 
 
-/* Phone Responsive Starts
+/* Phone Responsive Starts */
 
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 467px){
 
     .container-desktop{
         display: none;
@@ -1781,14 +1793,226 @@ footer strong{
         display: none;
     }
 
-     declaration begins 
+     /* declaration begins  */
 
     .container-phone{
         display: flex;
         flex-direction: column;
-        width: 414px;
+        width: 467px;
         height: auto;
          border: 1px solid red; 
     } 
+
+    /* Header begins here */
+
+    header{
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-bar{
+        margin: 10px 0;
+        padding: 0;
+        /* border: 1px solid black; */
+    }
+
+    .nav-one-image{
+        margin: 0;
+        padding: 0;
+        /* border: 1px solid purple; */
+        width: 80px;
+    }
+
+    .nav-one-image img{
+        width: 70px;
+        height: auto;
+    }
+
+    .nav-two-links{
+        margin-top: 0;
+        margin-left: 38px;
+        padding: 0;
+        /* border: 1px solid blue; */
+        width: 65%;
+    }
+
+    .nav-two-links a{
+        font-size: 8px;
+    }
+
+    .navlink-space{
+        margin-top: 0;
+        margin-left: 25px;
+        padding: 0;
+    }
+
+    .navlink-button{
+        margin-top: 0;
+        margin-left: 20px;
+        padding: 0;
+    }
+
+    .navlink-button button{
+        width: 45px;
+        height: 20px;
+        padding: 0 10px;
+        margin: 0 10px;
+    }
+
+    .navlink-button button a{
+        font-size: 8px;
+    }
+
+    /* Header done */
+
+    .after-nav{
+        margin: 0;
+        padding: 0;
+    }
+
+    .middle-section{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .middle-section-title{
+        margin: 30px 0;
+        padding-top: 0;
+        padding-left: 50px;
+        /* border: 1px solid green; */
+        width: 465px;
+    }
+
+    .middle-section-title h2{
+        margin: 15px 0;
+        padding: 0 110px;
+        font-size: 14px;
+    }
+
+    .middle-section-title p{
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    /* Button div */
+
+    .middle-section-button{
+        margin: 0;
+        padding: 0;
+    }
+
+    .button-middle-one{
+        margin: 10px 0;
+        padding: 0 30px;
+    }
+
+    .button-middle-one button{
+        width: 100px;
+        height: 40px;
+        margin: 20px 0;
+        background-color: rgb(83, 83, 230);
+        box-shadow: 2px 1px 2px 1px;
+    }
+
+    .button-middle-one button a{
+        font-size: 10px;
+    }
+
+    .button-middle-two{
+        margin: 10px 0;
+        padding: 0 30px;
+    }
+
+    .button-middle-two button{
+        width: 100px;
+        height: 40px;
+        margin: 20px 0;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 2px 1px 2px 1px;
+    }
+
+    .button-middle-two button a{
+        font-size: 10px;
+    }
+
+    .middle-section-image{
+        /* border: 1px solid rgb(0, 255, 21); */
+        margin-top: 0;
+        margin-left: 38px;
+        padding: 0;
+        width: 330px;
+        height: auto;
+    }
+
+    .middle-section-image img{
+        width: 300px;
+        height: auto;
+    }
+
+    /* Middle section ends here */
+
+    .contents{
+        margin: 0;
+        padding: 0;
+    }
+
+    .contents-section-wrapper{
+        margin: 100px 0;
+        padding: 0;
+        border: 1px solid black;
+        width: 460px;
+    }
+
+    .contents-section-one{
+        margin: 0;
+        padding: 0;
+    }
+
+    .contents-section-one h2{
+        margin: 0;
+        padding: 0 190px;
+        font-size: 18px;
+    }
+
+    .contents-section-two{
+        margin: 20px 0;
+        padding: 0 25px;
+    }
+
+    .contents-section-two p{
+        font-size: 14px;
+    }
+
+    .contents-section-three{
+        margin: 0;
+        padding: 0;
+    }
+
+    .contents-section-three a{
+        font-size: 14px;
+        margin: 0;
+        padding-top: 0;
+        padding-left: 35px;
+    }
+
+    .contents-section-three hr{
+        width: 92%;
+        margin: 40px 30px;
+    }
+
+    /* fourth-wrapper-container begins here */
+
+    .fourth-wrapper-container{
+        margin: 0;
+        padding: 0;
+    }
+
+    .fourth-wrapper{
+        margin: 0;
+        padding: 0;
+    }
 } 
 
