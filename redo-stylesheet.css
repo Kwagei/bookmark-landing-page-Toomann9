@@ -1962,7 +1962,7 @@ footer strong{
     .contents-section-wrapper{
         margin: 100px 0;
         padding: 0;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         width: 460px;
     }
 
@@ -2013,6 +2013,230 @@ footer strong{
     .fourth-wrapper{
         margin: 0;
         padding: 0;
+        border: 1px solid red;
     }
+
+    .picture-frame{
+        margin: 0 30px;
+        padding: 0 30px;
+        width: 350px;
+        height: auto;
+    }
+
+    .picture-frame img{
+        margin: 30px 0;
+        padding: 0;
+        width: 270px;
+        height: auto;
+    }
+
+    .fouth-section-letters{
+        margin: 50px 0;
+        padding: 0;
+        /* border: 1px solid palevioletred; */
+    }
+
+    .heavy-letters{
+        margin: 0;
+        padding-top: 0;
+        padding-left: 110px;
+    }
+
+    .heavy-letters h2{
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .light-letters{
+        margin-bottom: 0;
+        margin-top: 20px;
+        padding: 0 40px;
+    }
+
+    .light-letters p{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .letters-button{
+        margin-top: 20px;
+        margin-left: 0;
+        padding-top: 0;
+        padding-left: 150px;
+    }
+
+    .letters-button button{
+        box-shadow: 2px 1px 2px 1px;
+        width: 100px;
+        height: auto;
+        margin: 0;
+        padding: 14px 0;
+    }
+
+    /* lower-wrapper-and-image-block starts here */
+
+    .lower-wrapper-and-image-block{
+        margin: 0;
+        padding: 0;
+    }
+
+    .lower-wrapper{
+        margin: 0;
+        padding: 0;
+    }
+
+    .lower-wrapper h2{
+        margin: 0;
+        padding: 0 120px;
+        font-size: 18px;
+    }
+
+    .lower-wrapper p{
+        margin: 20px 0;
+        padding: 0 80px;
+        font-size: 16px;
+    }
+
+    .image-wrapper{
+        flex-direction: column;
+        margin: 0;
+        padding: 20px 110px;
+    }
+
+    .image-one{
+        margin: 0;
+        padding: 20px 0;
+        width: 200px;
+        height: auto;
+    }
+
+    .image-one img{
+        margin: 0 70px;
+        padding: 0;
+        /* border: 1px solid black; */
+    }
+
+    .image-one strong{
+        margin: 10px 0;
+        padding: 0 34px;
+        font-size: 18px;
+    }
+
+    .image-one p{
+        margin: 10px 0;
+        padding: 0 26px;
+        font-size: 16px;
+    }
+
+    .image-one hr{
+        margin: 0 26px;
+        padding: 0;
+        width: 144px;
+    }
+
+    .image-one button{
+        margin: 10px 50px;
+        padding: 7px 0;
+        width: 100px;
+    }
+
+    .image-one button a{
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+    }
+
+    /* Image two */
+
+    .image-two{
+        margin: 50px 0;
+        padding: 20px 0;
+        width: 200px;
+        height: auto;
+    }
+
+    .image-two img{
+        margin: 0 70px;
+        padding: 0;
+        /* border: 1px solid black; */
+    }
+
+    .image-two strong{
+        margin: 10px 0;
+        padding: 0 34px;
+        font-size: 18px;
+    }
+
+    .image-two p{
+        margin: 10px 0;
+        padding: 0 26px;
+        font-size: 16px;
+    }
+
+    .image-two hr{
+        margin: 0 26px;
+        padding: 0;
+        width: 144px;
+    }
+
+    .image-two button{
+        margin: 10px 50px;
+        padding: 7px 0;
+        width: 100px;
+    }
+
+    .image-two button a{
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+    }
+
+    /* Image Three */
+
+    .image-three{
+        margin: 0;
+        padding: 20px 0;
+        width: 200px;
+        height: auto;
+    }
+
+    .image-three img{
+        margin: 0 70px;
+        padding: 0;
+        /* border: 1px solid black; */
+    }
+
+    .image-three strong{
+        margin: 10px 0;
+        padding: 0 34px;
+        font-size: 18px;
+    }
+
+    .image-three p{
+        margin: 10px 0;
+        padding: 0 26px;
+        font-size: 16px;
+    }
+
+    .image-three hr{
+        margin: 0 26px;
+        padding: 0;
+        width: 144px;
+    }
+
+    .image-three button{
+        margin: 10px 50px;
+        padding: 7px 0;
+        width: 100px;
+    }
+
+    .image-three button a{
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+    }
+    
 } 
 
