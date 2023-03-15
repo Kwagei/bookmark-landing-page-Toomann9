@@ -1800,7 +1800,7 @@ footer strong{
         flex-direction: column;
         width: 467px;
         height: auto;
-         border: 1px solid red; 
+         /* border: 1px solid red;  */
     } 
 
     /* Header begins here */
@@ -2013,7 +2013,7 @@ footer strong{
     .fourth-wrapper{
         margin: 0;
         padding: 0;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .picture-frame{
@@ -2237,6 +2237,238 @@ footer strong{
         padding: 0;
         font-size: 10px;
     }
-    
-} 
 
+
+    /* after-image-container begins here */
+
+    .after-image-container{
+        margin: 0;
+        padding: 0;
+    }
+
+    .after-image{
+        margin: 20px 0;
+        padding: 0;
+        /* border: 1px solid black; */
+    }
+
+    .after-image hr{
+        margin: 0 50px;
+        width: 350px;
+    }
+
+    .after-image-title{
+        margin: 0;
+        padding: 0;
+    }
+
+    .after-image-title h2{
+        margin: 0;
+        padding: 0 104px;
+        font-size: 18px;
+    }
+
+    .after-image-title p{
+        margin: 15px 0;
+        padding: 0 60px;
+        font-size: 16px;
+    }
+
+    .after-image-two{
+        margin: 20px 0;
+        padding: 0 60px;
+    }
+    
+    .after-image-two strong{
+        margin: 0;
+        padding:  0;
+        font-size: 18px;
+        /* border: 1px solid red; */
+    }
+
+    .after-image-two i{
+        margin-left: 140px;
+        margin-top: 0;
+    }
+
+    /* After Image Three */
+
+    .after-image-three{
+        margin: 20px 0;
+        padding: 0 60px;
+    }
+    
+    .after-image-three strong{
+        margin: 0;
+        padding:  0;
+        font-size: 18px;
+        /* border: 1px solid red; */
+    }
+
+    .after-image-three i{
+        margin-left: 10px;
+        margin-top: 0;
+    }
+
+    /* After Image Four */
+
+    .after-image-four{
+        padding: 0;
+        margin: 0;
+    }
+
+    .after-image-four p{
+        font-size: 18px;
+        padding: 20px 40px;
+        margin: 0;
+    }
+
+    /* after-image-five */
+
+    .after-image-five{
+        margin: 20px 0;
+        padding: 0 60px;
+    }
+    
+    .after-image-five strong{
+        margin: 0;
+        padding:  0;
+        font-size: 14px;
+        /* border: 1px solid red; */
+    }
+
+    .after-image-five i{
+        margin-left: 160px;
+        margin-top: 0;
+    }
+
+    /* After Image Six */
+
+    .after-image-six{
+        margin: 20px 0;
+        padding: 0 60px;
+    }
+    
+    .after-image-six strong{
+        margin: 0;
+        padding:  0;
+        font-size: 14px;
+        /* border: 1px solid red; */
+    }
+
+    .after-image-six i{
+        margin-left: 45px;
+        margin-top: 0;
+    }
+
+    .after-image button{
+        margin: 30px 130px;
+        padding: 15px 0;
+        width: 150px;
+        height: auto;
+        box-shadow: rgb(192, 181, 181) 2px 3px 2px 2px;
+    }
+
+    /* Footer starts Here */
+    footer{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-one{
+        margin: 0;
+        padding-left: 0;
+        padding-top: 50px;
+        /* border: 1px solid green; */
+        
+    }
+
+    footer .footer-one p{
+        font-size: 10px;
+        padding-bottom: 20px;
+        padding-left: 80px;
+        margin: 0;
+        font-stretch: condensed;
+        /* display: flex; */
+    }
+
+    footer strong{
+        font-size: 18px;
+        margin: 0;
+        padding-top: 20px;
+        padding-left: 80px;
+    }
+
+    .footer-two{
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-input{
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    .footer-input input{
+        width: 198px;
+        height: 40px;
+        margin: 0;
+        padding: 0 40px;
+    }
+
+    .footer-two-button{
+        margin-left: 40px;
+        margin-top: 23px;
+        padding: 0;
+    }
+
+    .footer-two-button button{
+        width: 130px;
+        height: 50px;
+        box-shadow: 2px 1px 2px 1px;
+        color: rgb(7, 36, 36);
+        background-color: rgb(35, 35, 87);
+    }
+
+    .footer-two-button button:hover{
+        border: 1px solid gray;
+    }
+
+    .footer-two-button button a{
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+    /* lower-footer begins */
+
+    .lower-footer{
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-lower-end{
+        margin: 0;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 25px;
+    }
+
+    .footer-lower-end img{
+        width: 90px;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-lower-end a{
+        font-size: 13px;
+        padding: 0 15px;
+        margin: 0;
+    }
+} 
